@@ -1,0 +1,42 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body
+{
+     width: 100%;
+     height: 100%;
+     /* background-color: rgb(212, 213, 214);
+     border-radius: 0px; */
+}
+.image
+{
+     width: 100%;
+     height: 100%;
+     background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Styles for different device levels */
+@media only screen and (max-width: 767px) {
+    /* Mobile styles */
+    .device-level.mobile {
+      background-color: #f2f2f2;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Tablet styles */
+    .device-level.tablet {
+      background-color: #e6f7ff;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    /* Laptop/Desktop styles */
+    .device-level.laptop {
+        background-color: #f0f0f0;
+    }
+}
